@@ -1,0 +1,30 @@
+<swiper
+  [slidesPerView]="1"
+  [loop]="true"
+  [speed]="1000"
+  (swiper)="onSwiper($event)"
+  (slideChange)="onSlideChange()"
+  [navigation]="true"
+  [autoplay]="{delay: 5000,disableOnInteraction: true}"
+>
+  <ng-template swiperSlide >
+    <div class="imgBox" [routerLink]="['/detail','1']">
+      <img  src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+    </div>
+
+  </ng-template>
+  <ng-template swiperSlide>
+    <div class="imgBox" [routerLink]="['/detail','2']">
+      <img  src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+    </div>
+
+  </ng-template>
+  <ng-template swiperSlide>
+    <div class="imgBox" [routerLink]="['/detail','3']">
+      <img  src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+    </div>
+
+  </ng-template>
+</swiper>
+
+<!-- (swiper)="onSwiper($event)"-->

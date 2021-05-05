@@ -1,0 +1,59 @@
+.container{
+  overflow: hidden;
+  margin:5px 100px;
+}
+.mat-drawer-container{
+}
+.mat-drawer{
+  width: 200px;
+  min-width: 200px;
+}
+.mat-drawer-content{
+  display: flex;
+  flex-flow: row wrap;
+}
+.example-card {
+  min-width: 200px;
+  width: 200px;
+  margin: 30px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+.option{
+  margin-left: 200px;
+  margin-right: 90%;
+  margin-top:20px
+}
+
+.mat-drawer-container .mat-form-field{
+  width: 50px;
+  margin-right:15px;
+  font-size: 20px;
+}
+.mat-drawer-container input{
+  line-height: 100%;
+  text-align: center;
+}
+.price h2,.rate h2{
+  line-height: 100%;
+  font-weight: bold;
+}
+
+.example-card{
+  transform:scale(1,1);transition: all .1s ease-out;
+}
+.example-card:hover{
+  background: yellowgreen;
+  transform:scale(1.1,1.1);
+}
+.rate-mini{
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 10px 0;
+}
+mat-card-content .price *{
+  display: inline-block;
+}

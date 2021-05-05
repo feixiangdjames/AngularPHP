@@ -1,0 +1,61 @@
+.title {
+  margin: 1% 10%;
+  display: grid;
+  grid-template: auto / 1fr 1fr;
+}
+.title img{
+  display: block;
+  margin: 3%;
+  width: 70%;
+}
+p{
+  font-size: 30px;
+  line-height: 100%;
+  margin: 30px 0;
+}
+.price{
+  font-weight: bold;
+}
+.number{
+  height: 30px;
+  font-size: 30px;
+  line-height: 100%;
+  margin: 30px 0;
+}
+input{
+  line-height: 100%;
+  border:none;
+  width: 50px;
+  height: 30px;
+  border-bottom:black 3px solid;
+  text-align: center;
+  text-justify: auto;
+  font-size: 20px;
+  margin: 10px;
+}
+.add-to{
+margin: 30px 0;
+}
+.add-to button{
+  margin:30px 40px 0 0;
+}
+.mat-divider{
+  margin: 5%;
+}
+.spec p{
+  font-size: 20px;
+  line-height: 30px;
+  margin: 30px 0;
+}
+.comment{
+  margin: 10px 200px;
+  height: 200px;
+}
+.mat-divider{
+ margin: 5px 0;
+}
+.rate-mini{
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 10px 0;
+}
