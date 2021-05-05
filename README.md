@@ -7,4 +7,4 @@ The project uses the Typescript and angular framework to develop the front end. 
 - Learn the design and development process of front-end and back-end separation projects.
 - By deploying cloud hosting, practice building a web server on google cloud from scratch.
 - Proficiency in Javascript, Typescript, PHP, css, html, SQL language, application of npm, composer, webpack package management tools, angular, laravel framework, git version management, mysql database, linux operating system.
-HOME(https://github.com/feixiangdjames/AngularPHP/blob/main/picture/detail.png)
+![HOME](https://github.com/feixiangdjames/AngularPHP/blob/main/picture/detail.png)
