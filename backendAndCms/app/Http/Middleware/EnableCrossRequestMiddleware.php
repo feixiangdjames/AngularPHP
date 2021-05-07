@@ -18,9 +18,7 @@ class EnableCrossRequestMiddleware
     {
         $response = $next($request);
         $origin = $request->server('HTTP_ORIGIN') ? $request->server('HTTP_ORIGIN') : '';
-        $allow_origin = [
-            'http://localhost:4200',
-        ];
+        $allow_origin = ['https://feixiangdjames.github.io/','https://lin00170.github.io/'];
         if (in_array($origin, $allow_origin)) {
             $response->header('Access-Control-Allow-Origin', $origin);
             $response->header('Access-Control-Allow-Headers', 'Origin, Content-Type, Cookie, X-CSRF-TOKEN, Accept, Authorization, X-XSRF-TOKEN');

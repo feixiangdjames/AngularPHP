@@ -1,19 +1,20 @@
-# OBJECT
-The project uses the Typescript and angular framework to develop the front end. Use the PHP and Laravel framework to develop a back-end relational database.
-- By developing full-stack projects, learn the use of OOP in actual development scenarios.
-- Learn http, https network communication protocols.
-- Learn the process of the browser from loading data from the network to rendering the image.
-- Design the database according to the business, reasonably plan the table structure, and practice the use of database modeling in software development.
-- Learn the design and development process of front-end and back-end separation projects.
-- By deploying cloud hosting, practice building a web server on google cloud from scratch.
-- Proficiency in Javascript, Typescript, PHP, css, html, SQL language, application of npm, composer, webpack package management tools, angular, laravel framework, git version management, mysql database, linux operating system.
-
-## 1.简介
-&emsp;Java图形验证码，支持gif、中文、算术等类型，可用于Java Web、JavaSE等项目。
-
-> 点这个[AngularPHP](https://feixiangdjames.github.io/webproject/)
-
-## 2.效果展示
+# Summary 
+This academic project is a full-stack web application with an architecture pattern that separates the front-end and the back-end.  
+- The front-end is a single-page client application using Angular, HTML and TypeScript.  
+- The back-end is built with Laravel, an open-source PHP web framework, which provides a backend rendering CMS and manages the MySQL Database. A restful API is created to send JSON file to the front-end. 
+&emsp;
+## Learning Objectives 
+- Extending my web application development skills through learning new languages and relevant Frameworks including Angular, Typescript, Php and Laravel. 
+- Managing projects in complex development environments with deploying Composer, NPM, Php, Node, MySQL, Angular, Webpack, HTTPS, Cloud VM, Linux, Vagrant, VirtualBox. 
+- Deeply understanding HTTP, HTTPS, DNS, FTP, SSL protocols by deploying cloud hosting which is a web server on Google Cloud from scratch. 
+- Enhancing my knowledge about JavaScript, HTML, CSS, SQL language, NPM, Git, Composer, Webpack, MySQL Database, and Linux. 
+- Practicing Object-oriented programming concepts in web application development, Database Design, and Modeling according to business needs.  
+- Being proficient at the process of the browser through loading data from networks and rendering View. 
+&emsp;
+> Please click[FrontEndPage](https://feixiangdjames.github.io/webproject/)to visit the Front-end of the website building with Angular.
+> Please click[PHPCMS](https://myprojectcms.tk/pets) to look at the CMS and Restful API on Google Cloud VM which I deployed. The CMS permits user to manage content including uploading images with Server-Side Rendering.
+&emsp;
+## 
 - HOME
 ![HOME](https://github.com/feixiangdjames/AngularPHP/blob/main/picture/detail.png)
 - HOME

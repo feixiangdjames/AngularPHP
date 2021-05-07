@@ -46,14 +46,20 @@ class PetsController extends Controller
         $folder_name = "uploads/images/product/" . date("Ym/", time());
         $upload_path = public_path() . '/' . $folder_name;
         $extension  =  strtolower($file->getClientOriginalExtension())?:'png';
-        $fileName=$file->getFilename().'.'.$extension;
+        $fileName='https://myprojectcms.tk/'.$file->getFilename().'.'.$extension;
         $file->move($upload_path, $fileName);
-
+         $rate=$request->input('rate');
+          if($rate>5){
+			  $rate=5;
+		  }
+          if($rate<0){
+			  $rate = 0;
+		  }		  
             DB::table('pets')->insert([
                 'title'=>$request->input('title'),
                 'price'=>$request->input('price'),
-                'rate'=>$request->input('rate'),
-                'img'=>'http://homestead.test/'.$folder_name.$fileName,
+                'rate'=>$rate,
+                'img'=>$folder_name.$fileName,
                 'description'=>$request->input('description'),
                 'category_id'=>$request->input('category_id'),
                 'created_at' => date('Y-m-d H:i:s')

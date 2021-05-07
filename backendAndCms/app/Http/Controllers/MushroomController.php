@@ -45,14 +45,14 @@ public function show(Request $request){
         $folder_name = "uploads/images/mushroom/" . date("Ym/", time());
         $upload_path = public_path() . '/' . $folder_name;
         $extension  =  strtolower($file->getClientOriginalExtension())?:'png';
-        $fileName=$file->getFilename().'.'.$extension;
+        $fileName='https://myprojectcms.tk/'.$file->getFilename().'.'.$extension;
         $file->move($upload_path, $fileName);
 
         DB::table('mushroom')->insert([
             'title'=>$request->input('title'),
             'price'=>$request->input('price'),
             'rate'=>$request->input('rate'),
-            'img'=>'http://homestead.test/'.$folder_name.$fileName,
+            'img'=>$folder_name.$fileName,
             'description'=>$request->input('description'),
             'types_id'=>$request->input('category_id'),
             'created_at' => date('Y-m-d H:i:s')
