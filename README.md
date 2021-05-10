@@ -16,7 +16,7 @@ This academic project is a full-stack web application with an architecture patte
 - Please click [PHP CMS](https://myprojectcms.tk/pets) to look at the CMS and Restful API on Google Cloud VM which I deployed. The CMS permits user to manage content including uploading images with Server-Side Rendering.
 ## Effect display
 ### WEB view
-![HOME](https://github.com/feixiangdjames/AngularPHP/blob/main/picture/store.gif)
+![HOME](https://github.com/feixiangdjames/AngularPHP/blob/main/picture/store1.gif)
 ### CMS view 
-![index](https://github.com/feixiangdjames/AngularPHP/blob/main/picture/cms.gif)
+![index](https://github.com/feixiangdjames/AngularPHP/blob/main/picture/cms1.gif)
 
