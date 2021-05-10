@@ -15,16 +15,10 @@ This academic project is a full-stack web application with an architecture patte
 - Please click [FrontEndPage](https://feixiangdjames.github.io/webproject/) to visit the Front-end of the website building with Angular.
 - Please click [PHPCMS](https://myprojectcms.tk/pets) to look at the CMS and Restful API on Google Cloud VM which I deployed. The CMS permits user to manage content including uploading images with Server-Side Rendering.
 &emsp;
-## Effect display 
-### web view
-- Home Page
-![HOME](https://github.com/feixiangdjames/AngularPHP/blob/main/picture/home.png)
-- Poduct Page
-![Poduct](https://github.com/feixiangdjames/AngularPHP/blob/main/picture/project.png)
-- Detail Page 
-![Detail](https://github.com/feixiangdjames/AngularPHP/blob/main/picture/detail.png)
+## Effect display
+
+### WEB view
+![HOME](https://github.com/feixiangdjames/AngularPHP/blob/main/picture/store.gif)
 ### CMS view 
-- index
-![index](https://github.com/feixiangdjames/AngularPHP/blob/main/picture/index.png)
-- add new
-![new](https://github.com/feixiangdjames/AngularPHP/blob/main/picture/addnew.png)
+![index](https://github.com/feixiangdjames/AngularPHP/blob/main/picture/cms.gif)
+
