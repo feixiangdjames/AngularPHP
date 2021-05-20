@@ -1,7 +1,7 @@
 # Summary 
 This academic project is a full-stack web application with an architecture pattern that separates the front-end and the back-end.  
 - The front-end is a single-page client application using Angular, HTML and TypeScript.  
-- The back-end is built with Laravel, an open-source PHP web framework, which provides a backend rendering CMS and manages the MySQL Database. A restful API is created to send JSON file to the front-end. 
+- The back-end is built with Laravel, an open-source PHP web framework, which provides a backend rendering CMS and manages the MySQL Database.  Restful APIs are created to send JSON file to the front-end. 
 &emsp;
 ## Learning Objectives 
 - Extending my web application development skills through learning new languages and relevant Frameworks including Angular, Typescript, Php and Laravel. 
